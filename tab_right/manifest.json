@@ -1,0 +1,17 @@
+﻿{
+  "name": "Tab Right",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "This extension moves the activated tab to the rightmost.",
+  "browser_action": {
+      "name": "Tab Right"
+  },
+  "background": {
+      "scripts": [
+          "background.js"
+      ]
+  },
+  "permissions": [
+      "tabs"
+  ]
+}

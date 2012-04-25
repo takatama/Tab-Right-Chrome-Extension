@@ -8,7 +8,7 @@
             });
         } else {
             chrome.browserAction.setBadgeText({
-                text: ''
+                text: 'off'
             });
         }
     },
